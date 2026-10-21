@@ -9,3 +9,9 @@ venv/
 
 # Large datasets & corpora (>100MB cannot be pushed to GitHub)
 data/
+*.bin
+
+# Training outputs & checkpoints
+out/
+*.pt
+*.tmp
